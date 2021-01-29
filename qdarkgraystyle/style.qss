@@ -240,9 +240,9 @@ QMenu::icon
 
 QMenu::item
 {
-    padding: 2px 2px 2px 30px;
-    /*margin-left: 5px;*/
-    border: 1px solid transparent; /* reserve space for selection border */
+    border: 5px solid #323232;
+	padding-left: 5px;
+	padding-right: 24px;
 }
 
 QMenu::item:selected
@@ -706,14 +706,14 @@ QAbstractSpinBox:up-button
 {
     background-color: transparent;
     subcontrol-origin: border;
-    subcontrol-position: center right;
+    subcontrol-position: top right;
 }
 
 QAbstractSpinBox:down-button
 {
     background-color: transparent;
     subcontrol-origin: border;
-    subcontrol-position: center left;
+    subcontrol-position: bottom right;
 }
 
 QAbstractSpinBox::up-arrow,QAbstractSpinBox::up-arrow:disabled,QAbstractSpinBox::up-arrow:off {
@@ -744,7 +744,7 @@ QLabel
     border: 0px solid black;
     margin-left: 2px;
     margin-right: 2px;
-    color: #D1DBCB;
+    ccolor: #D1DBCB;
 }
 
 QTabWidget{
